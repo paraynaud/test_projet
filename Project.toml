@@ -1,0 +1,6 @@
+authors = ["paul raynaud <paul.raynaud66@hotmail.fr>"]
+name = "test_project"
+uuid = "fad985b8-eaa3-11e9-346a-f327cdd4c63d"
+version = "0.1.0"
+
+[deps]
