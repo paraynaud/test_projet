@@ -1,6 +1,7 @@
-authors = ["paul raynaud <paul.raynaud66@hotmail.fr>"]
 name = "test_project"
 uuid = "fad985b8-eaa3-11e9-346a-f327cdd4c63d"
+authors = ["paul raynaud <paul.raynaud66@hotmail.fr>"]
 version = "0.1.0"
 
 [deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
