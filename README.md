@@ -43,6 +43,16 @@ Couverture de code : Coveralls (je n'ai pas essayé codecov.io)
 		 - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
 	
 
+Documentation: 
+	- Il faut écrire la documentation sous un certain format de commentaires.
+	- Il faut aussi modifier le .travis.yml de manière à ce que cela génère la doc.
+	- Pour qu'il puisse la générer il est nécessaire qu'il ai certains accès et il faut donc créer des clés ssh  (explication):
+		https://juliadocs.github.io/Documenter.jl/stable/man/hosting/ 
+	-> DocumenterTool.genkeys génère les clés ssh et indique plus ou miin où il faut les rentrer entre github et travis.
+	- Pour le moment je n'arrive pas à avoir la doc en ligne
+
+
+
 
 
 
