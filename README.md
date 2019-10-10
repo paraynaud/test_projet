@@ -49,7 +49,20 @@ Documentation:
 	- Pour qu'il puisse la générer il est nécessaire qu'il ai certains accès et il faut donc créer des clés ssh  (explication):
 		https://juliadocs.github.io/Documenter.jl/stable/man/hosting/ 
 	-> DocumenterTool.genkeys génère les clés ssh et indique plus ou miin où il faut les rentrer entre github et travis.
-	- Pour le moment je n'arrive pas à avoir la doc en ligne
+	- Pour le moment je n'arrive pas à avoir la doc en ligne, j'ai fais tout ce qui était indiqué mais ça n'a pas l'air de marcher.
+	- github titre de la clé ssh : documenter 
+	- variable sécurisé travis : DOCUMENTER_KEY
+
+	-Enfin ce qu'il faut ajouter dans le dépôt : 
+		- un repertoire: 
+			docs/ 
+			   |-->  make.jl
+			   |-->  Project.toml 
+			   |-->	 src/
+				  |--> index.md
+
+
+
 
 
 
