@@ -1,5 +1,8 @@
 #test_projet
 
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://paraynaud.github.io/test_projet/master)
+
+
 Projet test ayant pour but de créer un projet julia et tester : 
 - Travis. 
 - La couverture de code. 
