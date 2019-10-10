@@ -7,4 +7,4 @@ using .test_project
 
 makedocs(modules = [test_project], sitename="My Documentation")
 
-deploydocs(repo = "github.com/JuliaLang/test_projet.git")
+deploydocs(repo = "github.com/paraynaud/test_projet.git")
